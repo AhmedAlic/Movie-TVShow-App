@@ -19,6 +19,6 @@ Search bar is displayed in the upper right corner where the user can search movi
 
 # How to install
 
-Movie app retrives data from [The Movie Database](themoviedb.org/documentation/api). The app requires your API key where you can generate it.
+Movie app retrives data from [The Movie Database](http://themoviedb.org/documentation/api). The app requires your API key where you can generate it.
 When you obtain API key, replace my apiKey (f6f10d60ce6b1904bfca50bd4a7fd036) with yours in app/src/main/java/com/myapp/API.kt.
 
