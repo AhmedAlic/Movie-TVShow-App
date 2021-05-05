@@ -2,8 +2,8 @@
 
 Movie app makes users discover Top Rated movies from the themoviedb.org web API.
 
-The app shows top 10 rated movies with icons and their names. When a movies is clicked a details about movie is lanuched, which provides the user with movie name, poster and movie overview.
-Search bar is displayed in the upper right corner where the user can search movie from entire movie database.
+The app shows top 10 rated movies with icons and their names. When a movies is clicked a details about movie is launched, which provides the user with movie name, poster and movie overview.
+Search bar is displayed in the upper right corner where the user can search movies from entire database.
 
 # Requirements
 
