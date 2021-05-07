@@ -1,9 +1,9 @@
-# Movie_test_app
+# Movie_TVShow_app
 
-Movie app makes users discover Top Rated movies from the themoviedb.org web API.
+Movie & TV Show app makes users discover Top Rated Movies and Top Rated TV Shows from the themoviedb.org web API.
 
-The app shows top 10 rated movies with icons and their names. When a movies is clicked a details about movie is launched, which provides the user with movie name, poster and movie overview.
-Search bar is displayed in the upper right corner where the user can search movies from entire database.
+The app displays two tabs where user can switch from Top 10 Rated TV Shows to Top 10 Rated Movies with icons and their names. When a Movie or a TV Show is clicked a details about them is launched, which provides the user with it's name, poster and overview.
+Search bar is displayed in the upper right corner where the user can search Movies and TV Shows from entire database.
 
 # Requirements
 
