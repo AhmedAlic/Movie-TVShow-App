@@ -1,7 +1,6 @@
 package com.myapp
 
 import android.view.LayoutInflater
-import android.view.Menu
 import android.view.View
 import android.view.ViewGroup
 import android.widget.ImageView
@@ -43,7 +42,7 @@ class MoviesAdapter (
         fun bind(movie: Movie) {
             Glide.with(itemView).load("https://image.tmdb.org/t/p/w342${movie.posterPath}")
                 .circleCrop().into(poster)
-            title.setText(movie.title)
+            title.text = movie.title
             itemView.setOnClickListener { onMovieClick.invoke(movie)}
         }
     }

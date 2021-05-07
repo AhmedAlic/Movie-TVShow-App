@@ -1,4 +1,4 @@
-package com.myapp
+package  com.myapp
 
 import retrofit2.http.GET
 import retrofit2.http.Query
@@ -15,4 +15,15 @@ interface API {
         @Query("api_key") apiKey: String = "f6f10d60ce6b1904bfca50bd4a7fd036",
         @Query("query") query: String
     ) : Call<GetMovies>
+
+    @GET("tv/top_rated")
+    fun getTopRatedTVShows(
+        @Query("api_key") apiKey: String = "f6f10d60ce6b1904bfca50bd4a7fd036"
+    ) : Call<GetTVShows>
+
+    @GET("search/tv")
+    fun searchTVShows(
+        @Query("api_key") apiKey: String = "f6f10d60ce6b1904bfca50bd4a7fd036",
+        @Query("query") query: String
+    ) : Call<GetTVShows>
 }
