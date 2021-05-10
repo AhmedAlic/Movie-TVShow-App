@@ -8,7 +8,7 @@ Search bar is displayed in the upper right corner where the user can search Movi
 # Requirements
 
 * Minimum API: 23
-* Minimum SKD: 23
+* Minimum SDK: 23
 * Android Studio version : 4.1.3
 
 # Tech
